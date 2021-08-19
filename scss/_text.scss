@@ -1,0 +1,18 @@
+/* Text */
+@import "article";
+
+.text {
+  padding: 1.5rem 2.5rem;
+
+  &__subtitle {
+    margin-bottom: 1.5rem;
+  }
+
+  &__text {
+    margin-bottom: 1.5rem;
+  }
+
+  &__article {
+    margin-bottom: 1.5rem;
+  }
+}

@@ -1,0 +1,10 @@
+/* Fonts */
+@font-face {
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Alegreya"), local("Alegreya-Regular"),
+    url("../fonts/Alegreya-Regular.woff2") format("woff2"),
+    url("../fonts/Alegreya-Regular.woff") format("woff"),
+    url("../fonts/Alegreya-Regular.ttf") format("ttf");
+}

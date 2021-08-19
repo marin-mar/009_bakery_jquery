@@ -1,0 +1,32 @@
+/* Article */
+.article {
+  padding: 0.5rem;
+
+  &__post {
+    font-style: italic;
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__first {
+    margin: 0.5rem;
+  }
+
+  &__img {
+    margin: 0.5rem;
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  &__last {
+    margin: 0.5rem;
+  }
+
+  &__quote {
+  }
+}

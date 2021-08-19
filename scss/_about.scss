@@ -1,0 +1,32 @@
+/* About */
+@import "text";
+@import "gallery";
+
+.about {
+  color: $mainBgColor;
+  background-color: $mainColor;
+  text-align: center;
+
+  &__title {
+    border-bottom: $secondColor;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+    @media (min-width: 960px) {
+      flex-direction: row;
+    }
+  }
+
+  &__text {
+    width: 50%;
+  }
+
+  &__gallery {
+    width: 50%;
+  }
+}

@@ -1,0 +1,57 @@
+/* Intro */
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/intro_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 2.5rem;
+    line-height: 1.3;
+
+    @media (min-width: 960px) {
+      font-size: 6rem;
+    }
+  }
+
+  &__text {
+    font-size: 1.5rem;
+    line-height: 1.3;
+    margin-bottom: 1.2rem;
+
+    @media (min-width: 960px) {
+      font-size: 3rem;
+    }
+  }
+
+  &__btn {
+    font-size: 1.5rem;
+    width: 70%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    background-color: $mainBgColor;
+    transition: all 0.3s linear 0;
+
+    @media (min-width: 960px) {
+      width: 50%;
+    }
+
+    &:hover {
+      background-color: $secondColor;
+    }
+  }
+}

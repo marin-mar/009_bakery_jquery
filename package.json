@@ -1,0 +1,24 @@
+{
+  "name": "009_bakery_jquery",
+  "version": "1.0.0",
+  "homepage": "https://marin-mar.github.io/bakery",
+  "description": "Bakery website, created with HTML, SCSS/CSS, JQuery",
+  "author": "marinmar",
+  "private": false,
+  "main": "index.html",
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "node-sass": "^6.0.1"
+  },
+  "scripts": {
+    "sass:watch": "sass --watch scss/main.scss:css/main.css --style=expanded --no-stop-on-error",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+}
