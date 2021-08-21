@@ -38,3 +38,8 @@ img {
 section {
   padding: 4rem 0;
 }
+
+.title {
+  display: inline-block;
+  border-bottom: 0.1rem solid $secondColor;
+}

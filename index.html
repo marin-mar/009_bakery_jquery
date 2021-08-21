@@ -13,6 +13,7 @@
     <meta name="msapplication-TileColor" content="#a4bfdc" />
     <meta name="theme-color" content="#ffffff" />
     <!-- ./favicon.ico -->
+    <link rel="stylesheet" href="./css/slick.css" />
     <link rel="stylesheet" href="./css/slick-theme.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <title>BakeryPastry</title>
@@ -23,8 +24,8 @@
       <div class="container">
         <nav class="header__nav">
           <a class="header__logo" href="#intro" data-scroll="#intro"
-            >BakeryPastry</a
-          >
+            >BakeryPastry
+          </a>
 
           <ul class="header__list">
             <li class="header__item">
@@ -88,23 +89,17 @@
     <!-- About -->
     <section class="about" id="about">
       <div class="container">
-        <h2 class="about__title">About Cakes</h2>
+        <h2 class="about__title title">About Cakes</h2>
         <div class="about__wrapper">
           <div class="about__text text">
             <h3 class="text__subtitle">We create delicious memories</h3>
             <p class="text__text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
-              provident quos rerum obcaecati enim maxime vitae doloremque eius
-              dignissimos, odio, blanditiis iste fugiat dolorum sunt qui
-              delectus modi exercitationem nesciunt. Tenetur blanditiis nam
-              consectetur ipsa provident numquam odit dicta amet libero eius
-              alias asperiores iusto natus, fuga fugit sint quia aperiam
-              deserunt? Rerum quasi aut dolore, culpa nostrum alias animi
-              necessitatibus. Repellat labore, non aut maxime explicabo facilis
-              earum recusandae quis sequi maiores vitae hic, blanditiis nihil
-              dolore! Asperiores doloremque inventore quam molestias quasi totam
-              aliquam ipsa amet sed commodi. Commodi, cupiditate saepe.
-              Temporibus expedita officia ex tenetur minus minima!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              et consequatur, nesciunt qui dolorem perferendis dignissimos hic
+              exercitationem veniam quam repellendus saepe maiores, nostrum rem
+              corporis? Qui sapiente, expedita corrupti dolor consectetur optio
+              eius, a dolore ipsa voluptas quibusdam sequi suscipit ea fugit
+              doloribus minus labore rerum repellendus aliquam quia.
             </p>
             <article class="text__article article">
               <h3 class="article__post">Chef Cook</h3>
@@ -114,6 +109,8 @@
                   class="article__img"
                   src="./img/about/avatar.png"
                   alt="Benito Caspare"
+                  width="126"
+                  height="126"
                 />
                 <p class="article__last">Caspare</p>
               </div>
@@ -125,10 +122,10 @@
           </div>
           <!-- ./about__text -->
           <div class="about__gallery gallery">
-            <img class="gallery__img" src="https://place-hold.it/300" alt="#" />
-            <img class="gallery__img" src="https://place-hold.it/300" alt="#" />
-            <img class="gallery__img" src="https://place-hold.it/300" alt="#" />
-            <img class="gallery__img" src="https://place-hold.it/300" alt="#" />
+            <img class="gallery__img" src="./img/about/about_01.png" alt="#" />
+            <img class="gallery__img" src="./img/about/about_02.png" alt="#" />
+            <img class="gallery__img" src="./img/about/about_03.png" alt="#" />
+            <img class="gallery__img" src="./img/about/about_04.png" alt="#" />
           </div>
           <!-- ./about__gallery -->
         </div>
@@ -139,7 +136,299 @@
 
     <!-- Menu -->
     <section class="menu" id="menu">
-      <h2 class="temporary">menu</h2>
+      <div class="container">
+        <h2 class="menu__title title">Menu</h2>
+
+        <!-- Menu Slider -->
+        <div class="menu__slider-wrapper">
+          <div class="menu__slider--main slider--main">
+            <div class="slider--main__item" id="01_pancakes">
+              <div class="slider--main__wrapper">
+                <img
+                  class="slider--main__img"
+                  src="./img/menu/01_pancakes.jpg"
+                  alt="pancakes"
+                  width="500"
+                />
+                <div class="slider--main__description">
+                  <h3 class="slider--main__description--title">Pancakes</h3>
+                  <p class="slider--main__description--text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quaerat, aliquam.
+                  </p>
+                </div>
+                <!-- ./slider--main__description -->
+                <div class="slider--main__label">
+                  <div class="slider--main__label--header">Ready in</div>
+                  <div class="slider--main__label--body">40</div>
+                  <div class="slider--main__label--footer">mins</div>
+                </div>
+                <!-- ./sslider--main__label -->
+              </div>
+              <!-- ./slider--main__wrapper -->
+            </div>
+            <!-- ./lider--main__item--01 -->
+            <div class="slider--main__item" id="02_sandwiches">
+              <div class="slider--main__wrapper">
+                <img
+                  class="slider--main__img"
+                  src="./img/menu/02_sandwiches.jpg"
+                  alt="sandwiches"
+                  width="500"
+                />
+                <div class="slider--main__description">
+                  <h3 class="slider--main__description--title">Sandwiches</h3>
+                  <p class="slider--main__description--text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quaerat, aliquam.
+                  </p>
+                </div>
+                <!-- ./slider--main__description -->
+                <div class="slider--main__label">
+                  <div class="slider--main__label--header">Ready in</div>
+                  <div class="slider--main__label--body">25</div>
+                  <div class="slider--main__label--footer">mins</div>
+                </div>
+                <!-- ./sslider--main__label -->
+              </div>
+              <!-- ./slider--main__wrapper -->
+            </div>
+            <!-- ./lider--main__item--02 -->
+            <div class="slider--main__item" id="03_tartlets">
+              <div class="slider--main__wrapper">
+                <img
+                  class="slider--main__img"
+                  src="./img/menu/03_tartlets.jpg"
+                  alt="tartlets"
+                  width="500"
+                />
+                <div class="slider--main__description">
+                  <h3 class="slider--main__description--title">Tartlets</h3>
+                  <p class="slider--main__description--text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quaerat, aliquam.
+                  </p>
+                </div>
+                <!-- ./slider--main__description -->
+                <div class="slider--main__label">
+                  <div class="slider--main__label--header">Ready in</div>
+                  <div class="slider--main__label--body">15</div>
+                  <div class="slider--main__label--footer">mins</div>
+                </div>
+                <!-- ./sslider--main__label -->
+              </div>
+              <!-- ./slider--main__wrapper -->
+            </div>
+            <!-- ./lider--main__item--03 -->
+            <div class="slider--main__item" id="04_bread">
+              <div class="slider--main__wrapper">
+                <img
+                  class="slider--main__img"
+                  src="./img/menu/04_bread.jpg"
+                  alt="bread"
+                  width="500"
+                />
+                <div class="slider--main__description">
+                  <h3 class="slider--main__description--title">Bread</h3>
+                  <p class="slider--main__description--text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quaerat, aliquam.
+                  </p>
+                </div>
+                <!-- ./slider--main__description -->
+                <div class="slider--main__label">
+                  <div class="slider--main__label--header">Ready in</div>
+                  <div class="slider--main__label--body">45</div>
+                  <div class="slider--main__label--footer">mins</div>
+                </div>
+                <!-- ./sslider--main__label -->
+              </div>
+              <!-- ./slider--main__wrapper -->
+            </div>
+            <!-- ./lider--main__item--04 -->
+            <div class="slider--main__item" id="05_buns">
+              <div class="slider--main__wrapper">
+                <img
+                  class="slider--main__img"
+                  src="./img/menu/05_buns.jpg"
+                  alt="buns"
+                  width="500"
+                />
+                <div class="slider--main__description">
+                  <h3 class="slider--main__description--title">Buns</h3>
+                  <p class="slider--main__description--text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quaerat, aliquam.
+                  </p>
+                </div>
+                <!-- ./slider--main__description -->
+                <div class="slider--main__label">
+                  <div class="slider--main__label--header">Ready in</div>
+                  <div class="slider--main__label--body">30</div>
+                  <div class="slider--main__label--footer">mins</div>
+                </div>
+                <!-- ./sslider--main__label -->
+              </div>
+              <!-- ./slider--main__wrapper -->
+            </div>
+            <!-- ./lider--main__item--05 -->
+            <div class="slider--main__item" id="06_cake">
+              <div class="slider--main__wrapper">
+                <img
+                  class="slider--main__img"
+                  src="./img/menu/06_cake.jpg"
+                  alt="cake"
+                  width="500"
+                />
+                <div class="slider--main__description">
+                  <h3 class="slider--main__description--title">Cake</h3>
+                  <p class="slider--main__description--text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quaerat, aliquam.
+                  </p>
+                </div>
+                <!-- ./slider--main__description -->
+                <div class="slider--main__label">
+                  <div class="slider--main__label--header">Ready in</div>
+                  <div class="slider--main__label--body">60</div>
+                  <div class="slider--main__label--footer">mins</div>
+                </div>
+                <!-- ./sslider--main__label -->
+              </div>
+              <!-- ./slider--main__wrapper -->
+            </div>
+            <!-- ./lider--main__item--06 -->
+            <div class="slider--main__item" id="07_croissant">
+              <div class="slider--main__wrapper">
+                <img
+                  class="slider--main__img"
+                  src="./img/menu/07_croissant.jpg"
+                  alt="croissant"
+                  width="500"
+                />
+                <div class="slider--main__description">
+                  <h3 class="slider--main__description--title">Croissant</h3>
+                  <p class="slider--main__description--text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quaerat, aliquam.
+                  </p>
+                </div>
+                <!-- ./slider--main__description -->
+                <div class="slider--main__label">
+                  <div class="slider--main__label--header">Ready in</div>
+                  <div class="slider--main__label--body">30</div>
+                  <div class="slider--main__label--footer">mins</div>
+                </div>
+                <!-- ./sslider--main__label -->
+              </div>
+              <!-- ./slider--main__wrapper -->
+            </div>
+            <!-- ./lider--main__item--07 -->
+            <div class="slider--main__item" id="08_donuts">
+              <div class="slider--main__wrapper">
+                <img
+                  class="slider--main__img"
+                  src="./img/menu/08_donuts.jpg"
+                  alt="donuts"
+                  width="500"
+                />
+                <div class="slider--main__description">
+                  <h3 class="slider--main__description--title">Donuts</h3>
+                  <p class="slider--main__description--text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quaerat, aliquam.
+                  </p>
+                </div>
+                <!-- ./slider--main__description -->
+                <div class="slider--main__label">
+                  <div class="slider--main__label--header">Ready in</div>
+                  <div class="slider--main__label--body">25</div>
+                  <div class="slider--main__label--footer">mins</div>
+                </div>
+                <!-- ./sslider--main__label -->
+              </div>
+              <!-- ./slider--main__wrapper -->
+            </div>
+            <!-- ./lider--main__item--08 -->
+          </div>
+          <!-- ./menu__slider--main -->
+        </div>
+        <!-- ./menu__slider-wrapper -->
+
+        <div class="menu__nav-wrapper">
+          <div class="menu__slider--nav slider--nav">
+            <div class="slider--nav__item">
+              <img
+                class="slider--nav__img"
+                src="./img/menu/01_pancakes.jpg"
+                alt="pancakes"
+              />
+            </div>
+            <!-- ./slider--nav__item--01 -->
+            <div class="slider--nav__item">
+              <img
+                class="slider--nav__img"
+                src="./img/menu/02_sandwiches.jpg"
+                alt="sandwiches"
+              />
+            </div>
+            <!-- ./slider--nav__item--02 -->
+            <div class="slider--nav__item">
+              <img
+                class="slider--nav__img"
+                src="./img/menu/03_tartlets.jpg"
+                alt="tartlets"
+              />
+            </div>
+            <!-- ./slider--nav__item--03 -->
+            <div class="slider--nav__item">
+              <img
+                class="slider--nav__img"
+                src="./img/menu/04_bread.jpg"
+                alt="bread"
+              />
+            </div>
+            <!-- ./slider--nav__item--04 -->
+            <div class="slider--nav__item">
+              <img
+                class="slider--nav__img"
+                src="./img/menu/05_buns.jpg"
+                alt="buns"
+              />
+            </div>
+            <!-- ./slider--nav__item--05 -->
+            <div class="slider--nav__item">
+              <img
+                class="slider--nav__img"
+                src="./img/menu/06_cake.jpg"
+                alt="cake"
+              />
+            </div>
+            <!-- ./slider--nav__item--06 -->
+            <div class="slider--nav__item">
+              <img
+                class="slider--nav__img"
+                src="./img/menu/07_croissant.jpg"
+                alt="croissant"
+              />
+            </div>
+            <!-- ./slider--nav__item--07 -->
+            <div class="slider--nav__item">
+              <img
+                class="slider--nav__img"
+                src="./img/menu/08_donuts.jpg"
+                alt="donuts"
+              />
+            </div>
+            <!-- ./slider--nav__item--08 -->
+          </div>
+          <!-- ./menu__slider--nav -->
+        </div>
+        <!-- ./menu__nav-wrapper -->
+
+        <!-- ./ Menu Slider -->
+      </div>
+      <!-- ./container -->
     </section>
     <!-- ./Menu -->
 

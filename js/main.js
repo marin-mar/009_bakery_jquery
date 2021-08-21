@@ -55,9 +55,37 @@ $(function () {
     });
   });
 
-  // $(".intro").slick({
-  //   infinite: true,
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-  // });
+  /* Slider - Menu */
+  $(".slider--main").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: ".slider--nav",
+  });
+  $(".slider--nav").slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    asNavFor: ".slider--main",
+    dots: false,
+    arrows: true,
+    focusOnSelect: true,
+    centerMode: true,
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          arrows: false,
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 400,
+        settings: {
+          arrows: false,
+          slidesToShow: 1,
+        },
+      },
+    ],
+  });
 });

@@ -8,7 +8,7 @@
   text-align: center;
 
   &__title {
-    border-bottom: $secondColor;
+    margin-bottom: 1.5rem;
   }
 
   &__wrapper {
@@ -22,11 +22,11 @@
     }
   }
 
-  &__text {
-    width: 50%;
-  }
-
+  &__text,
   &__gallery {
-    width: 50%;
+    width: 100%;
+    @media (min-width: 960px) {
+      width: 50%;
+    }
   }
 }
