@@ -55,6 +55,15 @@ $(function () {
     });
   });
 
+  /* Slider - About - Blog */
+  $(".about__list").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    infinite: true,
+    fade: true,
+  });
+
   /* Slider - Menu */
   $(".slider--main").slick({
     slidesToShow: 1,
@@ -87,5 +96,11 @@ $(function () {
         },
       },
     ],
+  });
+
+  /* Accordion */
+  $(".accordion").click(function (event) {
+    event.preventDefault;
+    $(this).toggleClass("active");
   });
 });

@@ -22,6 +22,8 @@
   &__nav-wrapper {
     width: 70%;
     margin: 0 auto;
+    background-color: $bgWrapper;
+    margin-top: 0.5rem;
 
     @media (min-width: 960px) {
       width: 55%;

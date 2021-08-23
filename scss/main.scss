@@ -6,12 +6,5 @@
 @import "intro";
 @import "about";
 @import "menu";
-// @import "media"; reference media points
-
-/* Temporary Styles */
-.temporary {
-  height: 500px;
-  text-align: center;
-  padding-top: 4rem;
-  border-top: 0.5rem solid red;
-}
+@import "visit";
+@import "footer";

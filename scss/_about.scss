@@ -29,4 +29,47 @@
       width: 50%;
     }
   }
+
+  &__list {
+    width: 95%;
+    margin: 0 auto;
+
+    @media (min-width: 960px) {
+      width: 85%;
+    }
+
+    & > .slick-prev,
+    & > .slick-next {
+      top: -2rem;
+
+      @media (min-width: 960px) {
+        top: 50%;
+      }
+    }
+
+    & > .slick-prev {
+      left: 10%;
+
+      @media (min-width: 960px) {
+        left: -5%;
+      }
+    }
+
+    & .slick-next {
+      right: 15%;
+
+      @media (min-width: 960px) {
+        right: -5%;
+      }
+    }
+
+    & > .slick-prev:before,
+    & > .slick-next:before {
+      font-size: 1rem;
+      color: $mainBgColor;
+      border: 0.1rem solid $mainBgColor;
+      padding: 1rem;
+      border-radius: 50%;
+    }
+  }
 }

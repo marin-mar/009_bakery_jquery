@@ -42,6 +42,10 @@
     background-repeat: no-repeat;
     background-size: 1.5rem;
 
+    @media (min-width: 960px) {
+      margin-right: 10rem;
+    }
+
     &::after {
       content: "";
       display: block;
@@ -76,7 +80,6 @@
     &.active {
       display: flex;
       width: 120vw;
-      height: 100vh;
       overflow: auto;
       position: absolute;
       top: 100%;

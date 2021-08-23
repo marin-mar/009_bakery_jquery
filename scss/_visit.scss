@@ -1,0 +1,106 @@
+/* Visit Us */
+.visit-us {
+  text-align: center;
+  color: $mainBgColor;
+  background-color: $mainColor;
+  transition: all 0.3s linear 0s;
+
+  &__title {
+    margin: 0.5rem;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  &__item {
+    margin: 1rem 0;
+  }
+}
+
+/* Accordion */
+.accordion {
+  border: 0.1rem solid $secondColor;
+  box-shadow: $accordionShadow;
+
+  &.active .accordion__content {
+    display: flex;
+    transition: all 0.3s linear 0s;
+  }
+
+  &.active .accordion__header::after {
+    transform: translateY(-50%) rotate(-45deg);
+    margin-top: 0.3rem;
+  }
+
+  &.active .accordion__header {
+    box-shadow: $accordionShadow;
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    transition: all 0.3s linear 0s;
+    cursor: pointer;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 1rem;
+      height: 1rem;
+      border-top: 0.2rem solid $secondColor;
+      border-right: 0.2rem solid $secondColor;
+      position: absolute;
+      top: 50%;
+      right: 1rem;
+      z-index: 1;
+      transform: translateY(-50%) rotate(135deg);
+      margin-top: -0.3rem;
+      transition: all 0.3s linear 0s;
+    }
+  }
+
+  &__icon {
+    width: 2rem;
+  }
+
+  &__title {
+    margin-left: 1rem;
+  }
+
+  &__content {
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.5rem;
+    transition: all 0.3s linear 0s;
+
+    @media (min-width: 960px) {
+      flex-direction: row;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    display: block;
+
+    @media (min-width: 960px) {
+      width: 50%;
+    }
+  }
+
+  &__text {
+    width: 100%;
+    padding: 1rem;
+
+    @media (min-width: 960px) {
+      width: 50%;
+    }
+  }
+}
