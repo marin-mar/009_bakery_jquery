@@ -52,6 +52,7 @@ $(function () {
 
     $(".header__item, header__link").click(function (event) {
       $("#nav-toggle, body, .header__list").removeClass("active");
+      $("body").removeClass("lock");
     });
   });
 

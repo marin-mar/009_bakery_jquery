@@ -22,7 +22,13 @@
     }
   }
 
-  &__text,
+  &__text {
+    width: 100%;
+    @media (min-width: 960px) {
+      width: 50%;
+    }
+  }
+  
   &__gallery {
     width: 100%;
     @media (min-width: 960px) {

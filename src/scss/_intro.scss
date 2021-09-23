@@ -44,7 +44,7 @@
     margin: 0 auto;
     padding: 0.5rem;
     background-color: $mainBgColor;
-    transition: all 0.3s linear 0;
+    transition: all 0.3s linear;
 
     @media (min-width: 960px) {
       width: 50%;

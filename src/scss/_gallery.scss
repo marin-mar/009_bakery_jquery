@@ -21,8 +21,11 @@
     opacity: 0.7;
   }
 
-  &__img {
+  &__item {
     width: 49%;
-    max-width: 350px;
+
+    & > img, & > picture, & > picture > img {
+      width: 100%;
+    }
   }
 }
