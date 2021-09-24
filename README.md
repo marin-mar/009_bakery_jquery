@@ -6,7 +6,9 @@
 - BEM нейминг и разделение блоков по стилям.<br>
 - Меню складывается в бургер-меню, фиксировано при прокрутке экрана, плавный скрол до секции.<br>
 - Реализовано два разных слайдера с помощью slick-slider, и табы на js.<br>
-- Итоговые файлы в двух вариантах - сжатом для сайта и развернутом для наглядности. Проверено в валидаторах W3C. PageSpeed Insights для ПК 98%.
+- Итоговые файлы в двух вариантах - сжатом для сайта и развернутом для наглядности. Проверено в валидаторах W3C. PageSpeed Insights для ПК 98%.<br>
+- Сайт размещен:<br>
+<a href="https://marin-mar.github.io/bakery/" rel="noreferrer" target="blank" >https://marin-mar.github.io/bakery/</a><br>
 </h3>
 ================================
 <h3>Explanation of the project:</h3> 
@@ -17,5 +19,7 @@
 - BEM naming and division of blocks by styles.<br>
 - The menu is folded into a burger-menu, fixed when scrolling the screen, smooth scrolling to the section.<br>
 - Implemented two different sliders using slick-slider, and tabs on js.<br>
-- Summary files in two versions - compressed for the site and expanded for clarity. Tested in W3C validators. PageSpeed Insights for for PC 98%. -->
+- Summary files in two versions - compressed for the site and expanded for clarity. Tested in W3C validators. PageSpeed Insights for for PC 98%.</br>
+- Site is published at:<br>
+<a href="https://marin-mar.github.io/bakery/" rel="noreferrer" target="blank" >https://marin-mar.github.io/bakery/</a><br>
 </h3>
